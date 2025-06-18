@@ -1,0 +1,21 @@
+curl -X POST https://85c3-139-135-45-163.ngrok-free.app/api/outbound \
+  -H "Content-Type: application/json" \
+  -d '{
+    "to": "+19728350702",
+    "from": "+14808476026",
+    "customer": {
+      "name": "Sam",
+      "address": "123 Pickle Lane",
+    }
+  }'
+
+curl -X POST https://85c3-139-135-45-163.ngrok-free.app/api/outbound \
+  -H "Content-Type: application/json" \
+  -d '{
+    "to": "+19728350702",
+    "from": "+13177485145",
+    "customer": {
+      "name": "Sam",
+      "address": "123 Pickle Lane"
+    }
+  }'
